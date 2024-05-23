@@ -1,15 +1,16 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
+<head style="margin-top: auto; background-color:rgb(34, 255, 0);"> <h6>Tu tienda femenina más completa</h6>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Mi primer Login</title>
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
-<body class="align-content-center text-center" style="height: 100vh;">
+<body class="align-content-center text-center" style="height: 100vh;margin-top: auto; background-color:coral ;">
+       
 <main class="form-signin" style="width: 100%;max-width: 330px;margin: auto; padding: 15px;">
 <form>
-<h1 class="h3 mb-3 fw-normal">Ingrese su cuenta</h1>
+<h1 class="h3 mb-3 fw-normal" style="background-color:blueviolet; border-style: double;">Ingrese su cuenta</h1>
 
 <div class="form-floating mb-3">
 <input type="usuario" class="form-control" id="email" placeholder="name@example.com">
@@ -34,7 +35,7 @@
 
 let usuario = document.getElementById('email').value;
 let pass = document.getElementById("password").value;
-alert (usuario)
+alert ("Bienvenido a Prety Woman")
 if (usuario == "sofia" && pass == 1234) {
 window.location.href = 'catalogo.html'
 } 
