@@ -32,10 +32,10 @@ function removeItem(index) {
 }
 
 function showCart() {
-  var sidebar = document.getElementById("sidebar");
-  if (sidebar.style.display === "none") {
-    sidebar.style.display = "block";
+  var art = document.getElementById("art");
+  if (art.style.display === "none") {
+    art.style.display = "block";
   } else {
-    sidebar.style.display = "none";
+    art.style.display = "none";
   }
 }
